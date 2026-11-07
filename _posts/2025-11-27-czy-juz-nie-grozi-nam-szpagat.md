@@ -5,7 +5,7 @@ numer: 2
 date: 2025-11-27
 opis: "Od system of record, przez system of engagement, po agentów AI: czy luka między biurokracją a pracą, która daje satysfakcję, zniknie, czy tylko zmieni kostium."
 tagi: [ai, praca, biurokracja, systemy]
-ilustracja: # /ilustracje/kuriotyp-02.jpg
+ilustracja: /ilustracje/kuriotyp-02.jpg
 zrodlo: https://www.linkedin.com/pulse/czy-ju%C5%BC-nie-grozi-nam-szpagat-kuriotyp-2-marcin-zr%C4%99da-megaf/
 ---
 
