@@ -5,7 +5,7 @@ numer: 1
 date: 2024-09-03
 opis: "Sprawozdawca sportowy Stanisława Tyma i jego „satrapa” jako obrazek świata dużych modeli językowych, które przetwarzają to, co same wytworzyły."
 tagi: [llm, ai, język]
-ilustracja: # /ilustracje/kuriotyp-01.jpg
+ilustracja: /ilustracje/kuriotyp-01.jpg
 zrodlo: https://www.linkedin.com/pulse/sk%C3%B3rzany-obiekt-po%C5%BC%C4%85dania-kuriotyp-1-marcin-zr%C4%99da-ebymf/
 ---
 
