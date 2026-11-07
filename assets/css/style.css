@@ -1,0 +1,29 @@
+:root { --tekst:#1c1c1c; --tlo:#faf8f3; --szary:#6b6b6b; --linia:#d9d4c8; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--tlo); color:var(--tekst); font:19px/1.7 Georgia, "Times New Roman", serif; }
+a { color:inherit; text-decoration-color:var(--szary); text-underline-offset:3px; }
+.top { max-width:42rem; margin:0 auto; padding:1.5rem 1.25rem; display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid var(--linia); }
+.logo { font-size:1.5rem; font-weight:bold; text-decoration:none; letter-spacing:.02em; }
+nav a { margin-left:1.25rem; font-size:.85rem; text-transform:uppercase; letter-spacing:.08em; text-decoration:none; color:var(--szary); }
+nav a:hover { color:var(--tekst); }
+main, footer { max-width:42rem; margin:0 auto; padding:0 1.25rem; }
+main { padding-top:2rem; padding-bottom:3rem; }
+.post-head h1 { font-size:2.2rem; line-height:1.2; margin:.2rem 0 .5rem; }
+.numer { margin:0; font-size:.85rem; text-transform:uppercase; letter-spacing:.1em; color:var(--szary); }
+.meta { color:var(--szary); font-size:.9rem; margin:0 0 1.5rem; }
+.ilustracja { width:100%; height:auto; filter:grayscale(1); margin:1rem 0 2rem; }
+.tresc hr { border:0; text-align:center; margin:2.5rem 0; }
+.tresc hr::after { content:"* * *"; color:var(--szary); letter-spacing:.5em; }
+.tresc blockquote { margin:1.5rem 0; padding-left:1.25rem; border-left:3px solid var(--linia); color:#333; font-style:italic; }
+.zrodlo { font-size:.85rem; color:var(--szary); margin-top:2.5rem; }
+.archiwum { list-style:none; padding:0; margin:0; }
+.archiwum li { padding:1.1rem 0; border-bottom:1px solid var(--linia); }
+.archiwum .nr { font-size:.8rem; text-transform:uppercase; letter-spacing:.1em; color:var(--szary); display:block; }
+.archiwum a.tytul { font-size:1.35rem; font-weight:bold; text-decoration:none; }
+.archiwum a.tytul:hover { text-decoration:underline; }
+.archiwum p { margin:.3rem 0 0; font-size:.95rem; color:#444; line-height:1.5; }
+.lead { color:var(--szary); font-style:italic; margin-top:0; }
+pre, code { font-family:ui-monospace, Menlo, monospace; font-size:.85rem; }
+pre { background:#efeadd; padding:1rem; overflow-x:auto; }
+footer { border-top:1px solid var(--linia); padding-top:1.25rem; padding-bottom:2.5rem; font-size:.8rem; color:var(--szary); }
+@media (max-width:600px){ body{font-size:17px} .post-head h1{font-size:1.7rem} }

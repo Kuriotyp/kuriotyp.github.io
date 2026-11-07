@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article>
+  <header class="post-head">
+    <p class="numer">Kuriotyp #{{ page.numer }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="meta">Marcin Zręda · {% include data.html d=page.date %}</p>
+    {% if page.ilustracja %}
+    <img class="ilustracja" src="{{ page.ilustracja | relative_url }}" alt="Ilustracja do felietonu: {{ page.title }}">
+    {% endif %}
+  </header>
+  <div class="tresc">
+    {{ content }}
+  </div>
+  {% if page.zrodlo %}
+  <p class="zrodlo">Pierwodruk: <a href="{{ page.zrodlo }}">LinkedIn</a></p>
+  {% endif %}
+</article>

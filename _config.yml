@@ -1,0 +1,28 @@
+title: Kuriotyp
+description: Felietony o technologii, kulturze, prawie i o tym, co dzieje się z myśleniem, kiedy pisze maszyna.
+author: Marcin Zręda
+lang: pl
+url: https://kuriotyp.github.io
+baseurl: ""
+permalink: /:title/
+timezone: Europe/Warsaw
+markdown: kramdown
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - skille/majeutyka/SKILL.md
+  - _templates
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post

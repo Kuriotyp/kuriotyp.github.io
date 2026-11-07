@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% feed_meta %}
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="{{ '/' | relative_url }}">Kuriotyp</a>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Archiwum</a>
+      <a href="{{ '/skille/majeutyka/' | relative_url }}">Majeutyka</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p>© Marcin Zręda · Treści na licencji <a href="https://creativecommons.org/licenses/by/4.0/deed.pl">CC BY 4.0</a></p>
+  </footer>
+</body>
+</html>
