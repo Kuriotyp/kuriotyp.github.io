@@ -5,7 +5,7 @@ numer: 3
 date: 2025-12-09
 opis: "Biblioteka Babel, melodie Riehla i AlphaZero jako tło pytania, kto jest autorem, gdy miliony ludzi z pomocą AI odkrywają te same optymalne sekwencje słów."
 tagi: [ai, prawo autorskie, twórczość, copyright]
-ilustracja: # /ilustracje/kuriotyp-03.jpg
+ilustracja: /ilustracje/kuriotyp-03.jpg
 zrodlo: https://www.linkedin.com/pulse/tw%C3%B3rca-odkrywca-czy-zwyk%C5%82y-le%C5%84-kuriotyp-3-marcin-zr%C4%99da-x3hpf/
 ---
 
