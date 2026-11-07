@@ -5,7 +5,7 @@ numer: 4
 date: 2026-02-23
 opis: "Muzyka i teatr jako ostatnie media, w których dzieło wymaga ciała artysty na scenie. Baudrillard, Benjamin i pytanie, czy aurę da się wygenerować."
 tagi: [ai, muzyka, autentyczność, Benjamin, Baudrillard]
-ilustracja: # /ilustracje/kuriotyp-04.jpg
+ilustracja: /ilustracje/kuriotyp-04.png
 zrodlo: https://www.linkedin.com/pulse/scena-ostatnie-laboratorium-autentyczno%C5%9Bci-kuriotyp-4-marcin-zr%C4%99da-5esff/
 ---
 
