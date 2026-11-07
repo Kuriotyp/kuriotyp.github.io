@@ -2,6 +2,7 @@
 layout: post
 title: "Mowa jest srebrem, a pisanie złotem?"
 numer: 8
+published: false
 date: 2026-11-07
 opis: "Czy da się weryfikować teksty, nie umiejąc ich pisać? O mowie, piśmie, wyobrażonym czytelniku i rozmówcy, który usiadł po złej stronie stołu."
 tagi: [pisanie, poznanie, maszyny]
