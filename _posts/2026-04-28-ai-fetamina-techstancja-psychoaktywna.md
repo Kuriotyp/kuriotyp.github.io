@@ -5,7 +5,7 @@ numer: 5
 date: 2026-04-28
 opis: "Czy praca z AI to kolejny szczebel drabiny komfortu, czy substancja, bez której po odcięciu dostępu przestajemy wiedzieć, jak myśleć?"
 tagi: [ai, uzależnienie, wydajność, praca]
-ilustracja: # /ilustracje/kuriotyp-05.jpg
+ilustracja: /ilustracje/kuriotyp-05.png
 zrodlo: https://www.linkedin.com/pulse/ai-fetamina-techstancja-psychoaktywna-kuriotyp-5-marcin-zr%C4%99da-ac4rf/
 ---
 
