@@ -2,13 +2,12 @@
 * { box-sizing: border-box; }
 body { margin:0; background:var(--tlo); color:var(--tekst); font:19px/1.7 Georgia, "Times New Roman", serif; }
 a { color:inherit; text-decoration-color:var(--szary); text-underline-offset:3px; }
-.top { max-width:42rem; margin:0 auto; padding:1.5rem 1.25rem; display:flex; justify-content:space-between; align-items:flex-start; gap:1rem; border-bottom:1px solid var(--linia); }
-.brand { max-width:30rem; }
-.def { margin:.5rem 0 0; font-size:.8rem; line-height:1.45; color:var(--szary); font-style:italic; }
+.top { max-width:42rem; margin:0 auto; padding:2.25rem 1.25rem 0; text-align:center; }
+.logo { display:inline-block; font-size:2.4rem; font-weight:bold; text-decoration:none; letter-spacing:.22em; line-height:1; margin-right:-.22em; }
+.def { max-width:34rem; margin:1rem auto 0; font-size:.82rem; line-height:1.5; color:var(--szary); font-style:italic; }
 .def strong { font-style:normal; color:var(--tekst); }
-.logo { font-size:1.7rem; font-weight:bold; text-decoration:none; letter-spacing:.14em; line-height:1; }
-nav { white-space:nowrap; padding-top:.45rem; }
-nav a { margin-left:1.25rem; font-size:.85rem; text-transform:uppercase; letter-spacing:.08em; text-decoration:none; color:var(--szary); }
+nav { margin-top:1.5rem; padding:.8rem 0; border-top:1px solid var(--linia); border-bottom:1px solid var(--linia); }
+nav a { margin:0 .9rem; font-size:.8rem; text-transform:uppercase; letter-spacing:.12em; text-decoration:none; color:var(--szary); }
 nav a:hover { color:var(--tekst); }
 main, footer { max-width:42rem; margin:0 auto; padding:0 1.25rem; }
 main { padding-top:2rem; padding-bottom:3rem; }
@@ -30,4 +29,4 @@ main { padding-top:2rem; padding-bottom:3rem; }
 pre, code { font-family:ui-monospace, Menlo, monospace; font-size:.85rem; }
 pre { background:#efeadd; padding:1rem; overflow-x:auto; }
 footer { border-top:1px solid var(--linia); padding-top:1.25rem; padding-bottom:2.5rem; font-size:.8rem; color:var(--szary); }
-@media (max-width:600px){ .top{flex-direction:column} nav{padding-top:0} nav a{margin:0 1rem 0 0} body{font-size:17px} .post-head h1{font-size:1.7rem} }
+@media (max-width:600px){ body{font-size:17px} .logo{font-size:1.8rem} .post-head h1{font-size:1.7rem} }
